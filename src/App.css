@@ -1,0 +1,55 @@
+/* Global styles for the React app */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.App {
+  min-height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+/* Responsive App container */
+@media (max-width: 768px) {
+  .App {
+    min-height: 100vh;
+    min-height: -webkit-fill-available; /* iOS Safari */
+    width: 100%;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 480px) {
+  .App {
+    min-height: 100vh;
+    min-height: -webkit-fill-available;
+    width: 100%;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  /* Mejorar el scroll en móviles */
+  * {
+    -webkit-overflow-scrolling: touch;
+  }
+
+  /* Evitar que los elementos se salgan */
+  body {
+    overflow-x: hidden;
+    position: relative;
+  }
+}
+
+/* Import Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Import Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css');
