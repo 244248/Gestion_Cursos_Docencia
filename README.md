@@ -20,7 +20,7 @@ Este proyecto es una migración completa de un sistema de gestión de cursos de 
 - **CSS3** - Estilos personalizados
 - **Font Awesome** - Iconos
 
-## Estructura del Proyecto
+## Estructura del Proyecto de Gestion de cursos
 
 ```
 src/
