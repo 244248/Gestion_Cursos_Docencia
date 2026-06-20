@@ -1,9 +1,4 @@
-HEAD
-HEAD
-"Cambio desde la rama MAIN" 
-"Cambio desde la rama conflicto" 
-conflicto
-=======
+
 # Sistema de Gestión de Cursos - Universidad La Salle Nezahualcóyotl
 
 Este proyecto es una migración completa de un sistema de gestión de cursos de HTML/CSS/JavaScript a React, manteniendo toda la funcionalidad original y las configuraciones de Firebase.
